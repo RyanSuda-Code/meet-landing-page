@@ -1,0 +1,62 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner {
+    max-width: 540px;
+    height: 304px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.intro {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+}
+
+button {
+    width: 193px;
+    height: 58px;
+    border-radius: 30px;
+}
+
+.word1 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+.word2 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8FE3F9;
+}
+
+.button1 {
+    background-color: #4D96A9;
+    border: none;
+}
+
+.button2 {
+    background-color: #855FB1;
+    border: none;
+}
