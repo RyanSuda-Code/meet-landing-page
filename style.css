@@ -9,6 +9,16 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.container {
+    width: 100%;
+    background-image: url(./assets/desktop/image-hero-left.png), url(./assets/desktop/image-hero-right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
 .banner {
     max-width: 540px;
