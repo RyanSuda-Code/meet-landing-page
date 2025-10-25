@@ -58,9 +58,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-While working this project I familiarized myself with the display: flex; and the powerful alignment tools it possess such as flex-direction, align-items, and justify-content.
+While working on this project, I became more familiar with display: flex; and its powerful alignment tools, such as flex-direction, align-items, and justify-content.
 
-Learned that when changing the color of text inside a button, especially iof there are multiple words and and they need to have different colors, its much mopre better to use the span element instead of the p element. The reason for that is the p element is a block element and will need to take up the whole width and will push the other words onto different line and th span elemnent is a inline and the element can freely flow without pushing any other words.
+I also learned that when changing the color of text inside a button, especially if there are multiple words that need different colors, it is much better to use the <span> element instead of a <p> element. The reason is that <p> is a block-level element and takes up the full width, which can push other words onto a new line. In contrast, <span> is an inline element, allowing the text to flow freely without affecting the position of other words.
+
+I learned the importance of spelling CSS attributes correctly, as even small mistakes can prevent the styles from applying properly, affecting the design.
 
 WILL UPDATE SOON
 

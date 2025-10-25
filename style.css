@@ -8,22 +8,29 @@ body {
 .logo {
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 118.72px;
+    height: 28px;
 }
 
 .container {
     width: 100%;
-    background-image: url(./assets/desktop/image-hero-left.png), url(./assets/desktop/image-hero-right.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: left center, right center;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
- 
+
+.left-decor, .right-decor {
+    width: auto;
+    height: auto;
+}
+
 .banner {
     max-width: 540px;
     height: 304px;
+    background-color: white;
     text-align: center;
+    justify-content: center;
 }
 
 .title {
@@ -41,8 +48,25 @@ body {
     color: #87879D;
 }
 
-button {
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button1 {
+    background-color: #4D96A9;
+    border: none;
     width: 193px;
+    height: 58px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #855FB1;
+    border: none;
+    width: 139px;
     height: 58px;
     border-radius: 30px;
     cursor: pointer;
@@ -62,20 +86,51 @@ button {
     color: #8FE3F9;
 }
 
-.button1 {
-    background-color: #4D96A9;
-    border: none;
-}
-
-.button2 {
-    background-color: #855FB1;
-    border: none;
-}
-
 .button1:hover {
     background-color: #71C0D4;
 }
 
 .button2:hover {
     background-color: #A678D1;
+}
+
+.divider {
+    width: 56px;
+    height: 140px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 1px;
+    height: 84px;
+    background-color: rgba(135, 135, 157, 0.5);
+}
+
+.circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgba(135, 135, 157, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-images {
+    max-width: 1110px;
+    height: 242px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.feature-images img {
+    width: 255px;
+    height: 242px;
+    border-radius: 10px;
 }
