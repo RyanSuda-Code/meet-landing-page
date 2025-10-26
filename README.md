@@ -62,6 +62,7 @@ I also learned that when changing the color of text inside a button, especially 
 
 I learned the importance of spelling CSS attributes correctly, as even small mistakes can prevent the styles from applying properly, affecting the design.
 
+Learned what and how to use z-index. It controls the vertical stacking of the overlapping elements on a web page. It helps determines which element appears in front of or behind other elements.
 WILL UPDATE SOON
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
