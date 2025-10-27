@@ -253,3 +253,9 @@ p {
 .footer1 {
     color: white;
 }
+
+/* Responsive Design for smaller screens */
+/* TABLET */
+@media (max-width: 1024px) and (min-width: 768px) {
+    
+}
