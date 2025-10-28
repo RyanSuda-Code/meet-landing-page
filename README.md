@@ -42,7 +42,7 @@ Mobile Version
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live URL](https://ryansuda-code.github.io/meet-landing-page/)
 
 ### Built with
 
