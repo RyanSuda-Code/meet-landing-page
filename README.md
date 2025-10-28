@@ -64,7 +64,6 @@ I learned how to use z-index to control the vertical stacking order of overlappi
 
 Finally, this project strengthened my understanding of CSS positioning, layout, and design, and taught me how to use media queries to create a responsive website that adapts smoothly to different devices and screen sizes.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
