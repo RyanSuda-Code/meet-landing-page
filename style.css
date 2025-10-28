@@ -79,7 +79,7 @@ main {
     width: 139px;
     height: 58px;
     border-radius: 30px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .button3 {
@@ -129,7 +129,7 @@ main {
     height: 140px;
     margin-top: 75px;
     margin-bottom: 30px;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
 }
@@ -197,7 +197,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     overflow: visible;
-    z-index: 2;
+    z-index: 2; /* Ensure the divider is above other content */
 }
 
 
@@ -215,7 +215,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;   
-    z-index: 1;
+    z-index: 1; /* Ensure the footer background image is behind other content */
 }
 
 .footer-sleeve {
@@ -257,5 +257,173 @@ p {
 /* Responsive Design for smaller screens */
 /* TABLET */
 @media (max-width: 1024px) and (min-width: 768px) {
-    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* controls whether the items are allowed to move onto multiple lines. */
+        width: 100%;
+    }
+
+    .left-decor, .right-decor {
+        order: 1; /* Ensure decorations appear first */
+        width: 50%;
+    }
+
+    .banner { 
+        width: 100%;
+        order: 2; /* Ensure banner appears second */
+        margin-top: 75px;
+    }
+
+    .title {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .intro {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #87879D;
+    }
+
+    .feature-images {
+        width: 689px;
+        height: 156px;
+        gap: 11px;
+    }
+
+    .feature-images img {
+        width: 164px;
+        height: 156px;
+    }
+
+    .holder {
+        width: 573px;
+    }
+
+    .footer-container {
+        height: 428px;
+        width: 100%;
+    }
+
+    .footer-sleeve {
+        height: 428px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-title {
+        width: 457px;
+        height: 88px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        width: 573px;
+        height: 52px;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* controls whether the items are allowed to move onto multiple lines. */
+        width: 100%;
+    }
+
+    .left-decor, .right-decor {
+        order: 1; /* Ensure decorations appear first */
+        width: 50%;
+    }
+
+    .banner { 
+        width: 100%;
+        order: 2; /* Ensure banner appears second */
+        margin-top: 75px;
+    }
+
+    .title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+    }
+
+    .intro {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #87879D;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-images {
+        width: 327px;
+        height: 310px;
+        gap: 25px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .feature-images img {
+        width: 151px;
+        height: 143px;
+    }
+
+    .holder {
+        width: 327px;
+        height: 284px;
+        margin-bottom: 75px;
+    }
+
+    .footer-container {
+        height: 428px;
+        width: 100%;
+    }
+
+    .footer-sleeve {
+        height: 428px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-title {
+        width: 327px;
+        height: 72px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        width: 327px;
+        height: 78px;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
 }

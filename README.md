@@ -1,6 +1,5 @@
 # Frontend Mentor - Meet landing page solution
-WILL UPDATE SOON
-This is a solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR).
 
 ## Table of contents
 
@@ -33,16 +32,19 @@ Desktop Version
 ![](./assets/Screenshot%202025-10-26%20223412.png)
 ![](./assets/Screenshot%202025-10-26%20223426.png)
 
-Mobile Version(to be updated)
+Tablet Version
+![](./assets/Screenshot%202025-10-28%20221808.png)
+![](./assets/Screenshot%202025-10-28%20221900.png)
+
+Mobile Version
+![](./assets/Screenshot%202025-10-28%20222105.png)
+![](./assets/Screenshot%202025-10-28%20222112.png)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
 
 ### Built with
 
@@ -56,43 +58,28 @@ Mobile Version(to be updated)
 
 ### What I learned
 
-While working on this project, I became more familiar with display: flex; and its powerful alignment tools, such as flex-direction, align-items, and justify-content.
+While working on this project, I became more confident using Flexbox and its alignment tools, including display: flex, flex-direction, align-items, and justify-content.
 
-I also learned that when changing the color of text inside a button, especially if there are multiple words that need different colors, it is much better to use the <span> element instead of a <p> element. The reason is that <p> is a block-level element and takes up the full width, which can push other words onto a new line. In contrast, <span> is an inline element, allowing the text to flow freely without affecting the position of other words.
+I learned that when styling text inside a button, especially when different words need different colors, it’s better to use a (span) element instead of a (p) element. (p) is block-level and takes up the full width, which can push other text onto a new line, whereas (span) is inline and allows text to flow naturally.
 
-I learned the importance of spelling CSS attributes correctly, as even small mistakes can prevent the styles from applying properly, affecting the design.
+I also recognized the importance of spelling CSS properties correctly, since even small mistakes can prevent styles from applying properly.
 
-Learned what and how to use z-index. It controls the vertical stacking of the overlapping elements on a web page. It helps determines which element appears in front of or behind other elements.
-WILL UPDATE SOON
+I learned how to use z-index to control the vertical stacking order of overlapping elements and how flex-wrap allows flex items to move onto multiple lines when needed. I also became familiar with order, which lets you change the visual order of flex items without modifying the HTML structure—a technique especially useful for responsive layouts.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
+Finally, this project strengthened my understanding of CSS positioning, layout, and design, and taught me how to use media queries to create a responsive website that adapts smoothly to different devices and screen sizes.
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+In future projects, I want to further improve my use of Flexbox and media queries to create more flexible, fully responsive layouts, like the ones I worked on for positioning the images and banner in my Meet landing page. I also aim to strengthen my understanding of CSS positioning and z-index for managing overlapping elements, and to write cleaner, more reusable CSS for polished and adaptable designs.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Ryan Suda](https://github.com/RyanSuda-Code)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thanks to my mentor, Sir Resty, for his guidance and for providing a live page I could use as a visual reference and inspiration.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
