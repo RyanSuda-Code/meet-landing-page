@@ -272,7 +272,8 @@ p {
     }
 
     .banner { 
-        width: 100%;
+        width: 457px;
+        height: 262px;
         order: 2; /* Ensure banner appears second */
         margin-top: 75px;
     }
