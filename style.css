@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Red Hat Display", sans-serif;
     display: flex;
@@ -17,8 +23,6 @@ main {
 .logo {
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 118.72px;
-    height: 28px;
 }
 
 .container {
@@ -37,7 +41,7 @@ main {
 
 .banner {
     max-width: 540px;
-    height: 304px;
+    padding: 20px;
     background-color: white;
     text-align: center;
     justify-content: center;
@@ -273,7 +277,7 @@ p {
 
     .banner { 
         width: 457px;
-        height: 262px;
+        padding: 20px;
         order: 2; /* Ensure banner appears second */
         margin-top: 75px;
     }
