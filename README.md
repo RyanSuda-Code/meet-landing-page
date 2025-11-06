@@ -39,10 +39,6 @@ Mobile Version
 ![](./assets/Screenshot%202025-10-28%20222105.png)
 ![](./assets/Screenshot%202025-10-28%20222112.png)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3545bd06e390b7cf69dc6b7c549b4cb9514a5c9e
 ### Links
 
 - Live Site URL: [Live URL](https://ryansuda-code.github.io/meet-landing-page/)
@@ -79,7 +75,3 @@ In future projects, I want to further improve my use of Flexbox and media querie
 ## Acknowledgments
 
 Thanks to my mentor, Sir Resty, for his guidance and for providing a live page I could use as a visual reference and inspiration.
-<<<<<<< HEAD
-=======
-
->>>>>>> 3545bd06e390b7cf69dc6b7c549b4cb9514a5c9e
