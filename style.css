@@ -20,7 +20,7 @@ main {
     width: 100%;
 }
 
-.logo {
+.logo { /*Removed fixed width/height so logos can scale naturally*/
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -41,7 +41,7 @@ main {
 
 .banner {
     max-width: 540px;
-    padding: 20px;
+    padding: 20px; /*Removed fixed height as padding adapts better when text wraps*/
     background-color: white;
     text-align: center;
     justify-content: center;
@@ -68,31 +68,28 @@ main {
     gap: 10px;
 }
 
-.button1 {
-    background-color: #4D96A9;
+.button1, .button2, .button3 {
     border: none;
-    width: 193px;
-    height: 58px;
     border-radius: 30px;
     cursor: pointer;
+}
+
+.button1 {
+    background-color: #4D96A9;
+    width: 193px;
+    height: 58px;
 }
 
 .button2 {
     background-color: #855FB1;
-    border: none;
     width: 139px;
     height: 58px;
-    border-radius: 30px;
-    cursor: pointer; 
 }
 
 .button3 {
     background-color: #855FB1;
-    border: none;
     width: 193px;
     height: 58px;
-    border-radius: 30px;
-    cursor: pointer;
 }
 
 .word1 {
@@ -174,12 +171,13 @@ main {
 
 .holder {
     width: 540px;
-    height: 240px;
+    height: auto;
+    padding: 20px;
     text-align: center; 
 }
 
 .overline {
-    font-weight: 900px;
+    font-weight: 900; /*removed "px" as font-weight dont use it - just number*/
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 4px; 
@@ -310,6 +308,7 @@ p {
 
     .holder {
         width: 573px;
+        padding: 20px;
     }
 
     .footer-container {
